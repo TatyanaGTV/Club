@@ -28,4 +28,13 @@
         color: #ffe023;
         margin-top: 20px;
     }
+    .main-image{
+        height: 100em;
+    }
+    .main-info {
+        height: 100em;
+    }
+    .organization-info{
+        height: 100em;
+    }
 }
