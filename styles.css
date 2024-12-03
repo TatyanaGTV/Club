@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  /*  background-color: #c1fdba85;*/
+
+
+}
+.container {
+    max-width: 1400px;
+    padding: 100px;
+}
+
+
+.main-image{
+    background-image: url("images/sea.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    border-bottom: 2px solid wheat;
+    box-shadow: inset -1px 8px 11px 17px wheat;
+}
+.main-info {
+    background-image: url("images/1577585130_0_160_3072_1888_1920x0_80_0_0_27213325acf3c115cb3572777b83d073.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    border-bottom: 2px solid wheat;
+    box-shadow: inset -1px 8px 11px 17px wheat;
+}
+.organization-info{
+    background-image: url("images/evening_tour_from_icmeler_to_pamukkale_8_37.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    border-bottom: 2px solid wheat;
+    box-shadow: inset -1px 8px 11px 17px wheat;
+}
+.main-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff949;
+    text-align: center;
+    padding-top: 100px;
+}
+.main-subtitle{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff949;
+    text-align: center;
+}
+
+.subtitle{
+    font-size: 30px;
+    font-weight: bold;
+    color:#292927;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.text{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #483f0a;
+    max-width: 620px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.main-text{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #110f03;
+    margin-bottom: 30px;
+}
+.button{
+    width: 200px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 300px;
+    background-color: #391d1e;
+  /*  background-color:#2d270b;*/
+
+
+    margin: auto;
+    display: block;
+}
+.main-info-about-us-image{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+.main-info-about-us-image img{
+    width: 75%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+
+}
+.main-info-about-us-image-e {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+.main-info-about-us-image-e img{
+    width: 75%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+
+}
+
+.main-info-about-us-images{
+    padding-left: 50px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.main-info-about-us{
+    margin-top: 50px;
+    padding-left: 50px;
+}
+.main-info-about-us-text{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffe023;
+    margin-top: 20px;
+}
+.footer{
+    height: 40px;
+    background-color: #4f6783;
+   border-bottom: 2px solid #4f6783;
+    box-shadow: inset -1px 8px 11px 17px #fdd8ac;
+}
+
+.rigths{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.networks{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.links{
+    text-decoration: none;
+}
+.button_text{
+    color: #f9f20d;
+    font-size: 20px;
+    font-weight: bold;
+}
+svg path {
+    fill: #eee0cd;
+    filter: drop-shadow(3px 3px 3px #ffe7d9);
+}
